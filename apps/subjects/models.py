@@ -18,7 +18,6 @@ class Subject(models.Model):
         max_length=10,
         choices=SUBJECT_CATEGORY,
     )
-
     description = models.TextField(max_length=250)
     school_year = models.ForeignKey(
         SchoolYear,

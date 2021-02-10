@@ -1,7 +1,6 @@
 from django.db import models
-from django.db.models.deletion import PROTECT
+from django.db.models.deletion import CASCADE, PROTECT, RESTRICT
 from apps.classrooms.models import Classroom, SchoolYear
-from apps.subjects.models import Subject
 
 # Create your models here.
 
@@ -17,7 +16,6 @@ class Student(models.Model):
         Classroom,
         blank=True,
     )
-    subjects = models.ManyToManyField(Subject)
 
     def __str__(self):
         return self.name

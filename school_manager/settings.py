@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'apps.classrooms',
     'apps.subjects',
     'apps.passbooks',
+    'apps.grids',
 ]
 
 MIDDLEWARE = [
