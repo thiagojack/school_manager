@@ -56,7 +56,6 @@ class Classroom(models.Model):
         choices=IDENTIFIED_CHOICES,
     )
     description = models.TextField(max_length=200)
-    
     shift = models.CharField(
         max_length=10,
         choices=SHIFTS_CHOICES,
