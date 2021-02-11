@@ -17,3 +17,4 @@
     - [x] **code**;
     - [x] **situation**;
     - [ ] **shedule**.
+- [ ] Criar gerador de código para o campo **code** em **subject**
