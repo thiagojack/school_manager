@@ -21,4 +21,4 @@ class Grid(models.Model):
     )
 
     def __str__(self):
-        return str(self.subjects) + str(self.subjects.category)
+        return str(self.subjects)

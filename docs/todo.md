@@ -12,3 +12,4 @@
 - Um exemplo de queryset para essa exibição
     - `Subjects.object.filter(student=pk)`
 - [ ] Criar o `template_base.html` do projeto;
+- [ ] Criar tabela em `grids.html` para renderizar dados;
