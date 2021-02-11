@@ -12,8 +12,9 @@ class Student(models.Model):
         blank=True,
         null=True,
     )
-    classrooms = models.ManyToManyField(
+    classrooms = models.ForeignKey(
         Classroom,
+        on_delete=models.PROTECT,
         blank=True,
     )
 

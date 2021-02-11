@@ -3,5 +3,5 @@ from . import views
 
 app_name = 'grids'
 urlpatterns = [
-    path('', views.GridView.as_view(), name='grid'),
+    #path('', views.GridView.as_view(), name='grid'),
 ]
