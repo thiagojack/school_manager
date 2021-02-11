@@ -13,7 +13,17 @@ class Subject(models.Model):
         ('biological', 'Biological'),
     )
 
+    SUBJECT_SITUATION = (
+        ('confirmed', 'Confirmed'),
+        ('not confirmed', 'NOT confirmed'),
+    )
+
+    code = models.CharField(max_length=6)
     name = models.CharField(max_length=20)
+    situation = models.CharField(
+        max_length=13,
+        choices=SUBJECT_SITUATION,
+    )
     category = models.CharField(
         max_length=10,
         choices=SUBJECT_CATEGORY,

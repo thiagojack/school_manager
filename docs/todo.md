@@ -13,3 +13,7 @@
     - `Subjects.object.filter(student=pk)`
 - [ ] Criar o `template_base.html` do projeto;
 - [ ] Criar tabela em `grids.html` para renderizar dados;
+- [ ] Criar os seguintes campos no modelo subject:
+    - [x] **code**;
+    - [x] **situation**;
+    - [ ] **shedule**.
